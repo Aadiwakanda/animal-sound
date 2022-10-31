@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div class="col-xs-12" id="heading">
+      <h1>Sound controlled aliens</h1>
+      <p>NOTE FOR THE USER: the following code can identify the following animal voices
+        birds,
+        dog,
+       cat
+      </p>
+      <hr>
+    </div>
+    <div id="content">
+      <center>
+        <button class=" btn btn-warning" onclick="Classify_some()">START</button>
+        <h4>
+          <div id="sound_name">Name of the sound :</div>
+          <br>                
+          <div id="confidence">Accuracy:</div>
+        </h4>
+        <img src="th.jpg" id="ear" width="300">
+      </center>
+      </div>
+      <footer id="footer1">Developed by: Aaditya</footer>
+<script src="main.js"></script>
+  </body>
+</html>

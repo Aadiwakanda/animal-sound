@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+#footer1{
+    color: white;
+    padding: 10px;
+    background-color: orange;
+    border-radius: 20px;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    font-size: 20px;
+    text-shadow: 5px 5px 4px black;
+}
+#content{
+    background-color: lightblue;
+
+}
+#heading{
+    text-align: center;
+    background-color: navajowhite;
+}
+button{
+    margin-top: 10px;
+}
+body{
+    font-family: 'Dancing Script', cursive;
+}
